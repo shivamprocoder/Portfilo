@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+  <div id="content" style="display:none;">
+    <h1>Page Loaded 🎉</h1>
+  </div>
+  <header>
+      <section class="header-section">
+          <div class="log"></div>
+          <h1 class="header-name">SHIVAM</h1>
+          <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Professional Profile</a></li>
+                <li><a href="#art">The Gallery</a></li>
+                <li><a href="#contact">Let's Collaborate</a></li>
+            </ul>
+        </section>
+    </header>
+    <div class="intro" id="home">
+        <img src="photo/main.png" alt="main" class="main-image">
+        <div class="intro-text">
+            <h1 class="intro-heading">Hello!!, I'm<br><span class="me">Shivam</span></h1>
+            <p>a passionate creative specializing in <br> Graphic Design, Art, and Web Development.</p>
+        </div>
+    </div>
+    <section id="resume">
+        <div class="cvback">
+            <h2 class="rehead">Professional Profile</h2>
+            <div class="cvbox">
+                <h2 class="cvhead">The Brief</h2>
+                <table class="cv-list">
+                    <tr>
+                        <td class="myname">Shivam</td>
+                    </tr>
+                    <tr>
+                        <td class="dobhead">Date of Birth:</td>
+                        <td class="dob">March 21, 2006</td>
+                    </tr>
+                    <tr>
+                        <td class="emailhead">Email:</td>
+                        <td class="email">proshivam@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td class="phonehead">Phone:</td>
+                        <td class="phone">0336-8236376</td>
+                    </tr>
+                    <tr>
+                        <td class="addresshead">Address:</td>
+                        <td class="address">Karachi, Pakistan</td>
+                    </tr>
+                </table>
+                <button link="photo/cv.pdf" download class="cvbtn">Download CV</button>
+            </div>
+        </div>
+        <div class="edu">
+            <h2 class="educate">Education</h2>
+            <div class="college">
+                <img src="photo/edu/coll.png" alt="college" class="college-image">
+                <div class="college-info">
+                    <p class="year">2021-2022</p>
+                    <h3 class="center">College</h3>
+                    <p class="name">Govt.Degree Boys College Ibrahim Hyderi, Karachi</p>
+                </div>
+            </div>
+            <div class="academy">
+                <img src="photo/edu/ned.jpg" alt="college" class="academy-image">
+                <div class="academy-info">
+                    <p class="year">2025</p>
+                    <h3 class="center">Java</h3>
+                    <p class="name">NED Academy</p>
+                </div>
+            </div>
+            <div class="coaching">
+                <img src="photo/edu/smit.png" alt="college" class="coaching-image">
+                <div class="coaching-info">
+                    <p class="year">2025-2026(ongoing)</p>
+                    <h3 class="center">Web Development</h3>
+                    <p class="name">SMIT</p>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <h2 class="skill-heading">Skills</h2>
+            <div class="blocks">
+                <div class="graph">
+                    <div class="circle">
+                        <h1 class="per">90<sup>%</sup></h1>
+                        <div class="squar1"></div>
+                    </div>
+                    <h1 class="head">Graphic Designing</h1>
+                </div>
+                <div class="web">
+                    <div class="circle">
+                        <h1 class="per">70<sup>%</sup></h1>
+                        <div class="squar2"></div>
+                    </div>
+                    <h1 class="head">Web Development</h1>
+                </div>
+            </div>
+            <div class="skill-list">
+                <div class="illustrator">
+                    <p>Adobe Illustrator <span>95%</span></p>
+                    <input type="range" min="0" max="100" value="95" class="slider" id="illustrator" disabled>
+                </div>
+                <div class="html">
+                    <p>HTML5 <span>90%</span></p>
+                    <input type="range" min="0" max="100" value="90" class="slider" id="html" disabled>
+                </div>
+                <div class="java">
+                    <p>Java <span>80%</span></p>
+                    <input type="range" min="0" max="100" value="80" class="slider" id="java" disabled>
+                </div>
+                <div class="photoshop">
+                    <p>Adobe Photoshop <span>70%</span></p>
+                    <input type="range" min="0" max="100" value="70" class="slider" id="photoshop" disabled>
+                </div>
+                <div class="css">
+                    <p>CSS3 <span>70%</span></p>
+                    <input type="range" min="0" max="100" value="70" class="slider" id="css" disabled>
+                </div>
+                <div class="js">
+                    <p>JavaScript <span>30%</span></p>
+                    <input type="range" min="0" max="100" value="30" class="slider" id="js" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="certification">
+            <h2 class="cert-heading">Certifications</h2>
+            <div class="cert-blocks">
+                <div class="cert-item">
+                    <img src="photo/edu/smit.png" alt="SMIT" class="smit-image">
+                    <p class="cert-date">2026</p>
+                    <h3 class="cert-title">Web Development Certification</h3>
+                    <p class="cert-provider">SMIT</p>
+                </div>
+                <div class="cert-item">
+                    <img src="photo/edu/ned.jpg" alt="NED Academy" class="ned-image">
+                    <p class="cert-date">2025</p>
+                    <h3 class="cert-title">Java Certification</h3>
+                    <p class="cert-provider">NED Academy</p>
+                </div>
+                <div class="cert-item">
+                    <img src="photo/edu/google.png" alt="Google" class="google-image">
+                    <p class="cert-date">2025</p>
+                    <h3 class="cert-title">Google AI Essentials Certification</h3>
+                    <p class="cert-provider">Google</p>
+                </div>
+                <div class="cert-item">
+                    <img src="photo/edu/google.png" alt="Google" class="google-image">
+                    <p class="cert-date">2025</p>
+                    <h3 class="cert-title">Google Prompting Essentials Certification</h3>
+                    <p class="cert-provider">Google</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="art">
+        <h2 class="art-head">Art Gallery</h2>
+        <h2 class="art-subhead">My Logo Creations</h2>
+        <div class="art-gallery">
+            <div class="art-item1">
+                <img src="photo/mylogos/art1.png" alt="art1" class="art-image1">
+                <p class="art-title1">Being a Graphic Designer<span>My Instagram Identity Logo</span></p>
+            </div>
+            <div class="art-item2">
+                <img src="photo/mylogos/art2.png" alt="art2" class="art-image2">
+                <p class="art-title2">Bean & Book<span>A Coffee & Library Brand Identity</span></p>
+            </div>
+            <div class="art-item3">
+                <img src="photo/mylogos/art3.png" alt="art3" class="art-image3">
+                <p class="art-title3">Green Earth<span>Logo for a Gardening &<br>Landscaping service</span></p>
+            </div>
+            <div class="art-item4">
+                <img src="photo/mylogos/art4.png" alt="art4" class="art-image4">
+                <p class="art-title4">Brewed Awakening<span>Coffee Shop Logo</span></p>
+            </div>
+            <div class="art-item5">
+                <img src="photo/mylogos/art5.png" alt="art5" class="art-image5">
+                <p class="art-title5">The Gem Edit<span>Custom Jewelry Design Shop</span></p>
+            </div>
+            <div class="art-item6">
+                <img src="photo/mylogos/art6.png" alt="art6" class="art-image6">
+                <p class="art-title6">LeafJar<span>Organic Skincare Brand</span></p>
+            </div>
+            <div class="art-item7">
+                <img src="photo/mylogos/art7.png" alt="art7" class="art-image7">
+                <p class="art-title7">FitZone<span>Fitness Studio Identity</span></p>
+            </div>
+            <div class="art-item8">
+                <img src="photo/mylogos/art8.png" alt="art8" class="art-image8">
+                <p class="art-title8">Brewed Awakening<span>Café Logo Design</span></p>
+            </div>
+            <div class="art-item9">
+                <img src="photo/mylogos/art9.png" alt="art9" class="art-image9">
+                <p class="art-title9">Shalley's Fitness Center<span>Strong Body, Strong Mind</span></p>
+            </div>
+            <div class="art-item10">
+                <img src="photo/mylogos/art10.png" alt="art10" class="art-image10">
+                <p class="art-title10">The Gem Edit<span>Custom Jewelry</span></p>
+            </div>
+            <div class="art-item11">
+                <img src="photo/mylogos/art11.png" alt="art11" class="art-image11">
+                <p class="art-title11">EverGreen University<span>Academic Brand Identity</span></p>
+            </div>
+            <div class="art-item12">
+                <img src="photo/mylogos/art12.png" alt="art12" class="art-image12">
+                <p class="art-title12">FitZone<span>Strength & Performance Logo</span></p>
+            </div>
+            <div class="art-item14">
+                <img src="photo/mylogos/art14.png" alt="art14" class="art-image14">
+                <p class="art-title14">Circle Dine<span>Where Flavor Meets Design</span></p>
+            </div>
+            <div class="art-item13">
+                <img src="photo/mylogos/art13.png" alt="art13" class="art-image13">
+                <p class="art-title13">ColorChord<span>Where Colors Meet Music</span></p>
+            </div>
+            <div class="art-item15">
+                <img src="photo/mylogos/art15.png" alt="art15" class="art-image15">
+                <p class="art-title15">FretBoard Academy<span>Music School Brand</span></p>
+            </div>
+            <div class="art-item16">
+                <img src="photo/mylogos/art16.png" alt="art16" class="art-image16">
+                <p class="art-title16">GameOn<span>Play. Compete. Win.</span></p>
+            </div>
+            <div class="art-item17">
+                <img src="photo/mylogos/art17.png" alt="art17" class="art-image17">
+                <p class="art-title17">Verde<span>Renew & Reuse Logo Brand</span></p>
+            </div>
+            <div class="art-item18">
+                <img src="photo/mylogos/art18.png" alt="art18" class="art-image18">
+                <p class="art-title18">Imagination By ME<span>Logo for a Creative Studio</span></p>
+            </div>
+            <div class="art-item19">
+                <img src="photo/mylogos/art19.png" alt="art19" class="art-image19">
+                <p class="art-title19">SoundScape Studio<span>Modern Music Studio Logo</span></p>
+            </div>
+            <div class="art-item20">
+                <img src="photo/mylogos/art20.png" alt="art20" class="art-image20">
+                <p class="art-title20">Gitaro<span>The Sound of Strings</span></p>
+            </div>
+            <div class="art-item21">
+                <img src="photo/mylogos/art21.png" alt="art21" class="art-image21">
+                <p class="art-title21">The Gem Edit<span>Creative Editing Brand Logo</span></p>
+            </div>
+            <div class="art-item22">
+                <img src="photo/mylogos/art22.png" alt="art22" class="art-image22">
+                <p class="art-title22">Bubbles Beats<span>Artistic Guitar Logo Concept</span></p>
+            </div>
+        </div>
+        <h2 class="art-subhead"></h2>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
